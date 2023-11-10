@@ -23,7 +23,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
 
 const NavBar = () => {
     return(
-        <Stack direction={{ base: 'column', md: 'row' }} display={{ base: 'none', md: 'flex' }} width={{ base: 'full', md: 'auto' }} alignItems="center" flexGrow={1} mt={{ base: 4, md: 0 }} justifyContent="end">
+        <Stack direction={{ base: 'column', md: 'row' }} width={{ base: 'full', md: 'auto' }} alignItems="center" flexGrow={1} mt={{ base: 4, md: 0 }} justifyContent="end">
             <LinkItem href="https://github.com/helvijs2810"><IoLogoGithub/>My Projects</LinkItem>
             <LinkItem href="mailto:h.g.petuhovs@gmail.com"><IoLogoGoogle/>Contact Me</LinkItem>
         </Stack>

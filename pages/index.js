@@ -4,14 +4,15 @@ const Page = () => {
     return (
         <Container maxW="inherit" height="700px" m={0} boxShadow="2xl" padding={0}>
             <Box display={{md: "flex"}}  height="inherit">
-                <Box display={{md: "flex"}} flexGrow={1} flexDir="column" bg="#CEECF2">
-                    <Box h="100%" w="32" bg="#395D73">
-                        <Heading as="h1" fontSize={48} variant="page-title" transform="rotate(-90deg)" whiteSpace="nowrap" mt="400">
+                <Box display={{md: "flex"}} flexGrow={1} flexDir="row">
+                    <Box h="700px" w="32" bg="#395D73" display={{base: "none", md: "flex"}} justifyContent="center" alignItems="center">
+                        <Heading as="h1" fontSize={48} h="-moz-fit-content" variant="page-title" transform="rotate(-90deg)" whiteSpace="nowrap">
                             By Helvijs Petuhovs
                         </Heading>
                     </Box>
+                    <Box h="700px" w="16" bg="#CEECF2" display={{base: "none", md: "flex"}}></Box>
                 </Box>
-                   <Box w="container.md" display={{md: "flex"}} flexGrow={1} justifyContent="center" alignItems="center" height="inherit" flexFlow="column">
+                   <Box display={{md: "flex"}} flexGrow={1} justifyContent="center" alignItems="center" height="inherit" flexFlow="column">
                         <Heading as="h1" variant="head-one">
                             About Me
                         </Heading>
