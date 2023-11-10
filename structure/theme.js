@@ -1,0 +1,42 @@
+import { extendTheme } from '@chakra-ui/react'
+import '@fontsource/cormorant-sc';
+import '@fontsource-variable/inter';
+// Supports weights 300-900
+import '@fontsource-variable/merienda';
+import '@fontsource/sedgwick-ave';
+
+const fonts = {
+  heading: `'Merienda Variable', sans-serif`,
+  body: `'Inter Variable', sans-serif`,
+}
+
+const components = {
+  Text: {
+    variants: {
+      'info-text': {
+        color: '#395D73',
+        fontSize: '16',
+        fontWeight: '300'
+      }
+    }
+  },
+  Heading: {
+    variants: {
+      'head-one': {
+        color: '#395D73',
+        fontSize: '38'
+      },
+      'head-two': {
+        color: '#45718C',
+        fontSize: '30'
+      },
+      'page-title': {
+        color: '#CEECF2'
+      }
+    }
+  }
+}
+
+const theme = extendTheme({fonts, components})
+
+export default theme
