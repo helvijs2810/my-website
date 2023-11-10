@@ -1,7 +1,7 @@
 import {Container, Box, Heading,  Text, Link,} from "@chakra-ui/react"
 import NextLink from 'next/link'
 
-const LinkItem = ({ href, path, target, children, ...props }) => {
+const LinkItem = ({ href, target, children, ...props }) => {
     return (
       <Link
         as={NextLink}
