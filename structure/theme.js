@@ -1,9 +1,6 @@
 import { extendTheme } from '@chakra-ui/react'
-import '@fontsource/cormorant-sc';
 import '@fontsource-variable/inter';
-// Supports weights 300-900
 import '@fontsource-variable/merienda';
-import '@fontsource/sedgwick-ave';
 
 const fonts = {
   heading: `'Merienda Variable', sans-serif`,

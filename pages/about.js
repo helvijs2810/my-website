@@ -1,6 +1,5 @@
-import {Container, Box, Heading, Stack, Text, Link, Button, useColorModeValue, Center} from "@chakra-ui/react"
+import {Container, Box, Heading,  Text, Link,} from "@chakra-ui/react"
 import NextLink from 'next/link'
-import {IoLogoGoogle, IoLogoGithub, IoBookOutline} from 'react-icons/io5'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
     return (
